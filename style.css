@@ -1,5 +1,5 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 
 /*header*/
@@ -12,9 +12,11 @@ h1 {
 }
 
 .header {
-  background-image: url(images/mars.png);
-  text-align: center;
-  background-size: cover;
+    background-image: url(images/mars.png);
+    text-align: center;
+    background-size: cover;
+    margin: 20px 228px;
+    border-radius: 21px;
 }
 
 h1:hover {
@@ -29,7 +31,7 @@ h2, h3 {
 .header p {
   font-family: 'Spectral SC', serif;
   color: #F6E9E9;
-  margin-left: 10px;
+  font-size: 12px;
 }
 #profile_picture:hover {
   width: 226px;
@@ -53,6 +55,8 @@ h2, h3 {
     margin: auto;
 }
 
+
+
 .social li {
   display: inline;
   color: #E16428;
@@ -63,7 +67,7 @@ h2, h3 {
 }
 /*film section*/
 .container {
-    margin: 34px;
+  margin: 10px 220px;
 }
 
 
@@ -74,7 +78,7 @@ h2, h3 {
 
 .container .cards {
   background-color: chocolate;
-  font-size: 1.5em;
+  font-size: 1.1em;
 }
 
 .container .cards h3 {
