@@ -1,29 +1,34 @@
 body {
-  background-color: white;
+  background-color: #F7F7F8;
 }
 
 /*header*/
 
 h1 {
+  font-weight: 200;
   font-size: 50px;
   font-family: 'Noto Sans', sans-serif;
-  color: #40A798;
+  color: #3B577D;
 }
 
 .header {
     background-color: #F1F1F1;
     text-align: center;
     background-size: cover;
-    margin: 40px 228px;
+    margin: 10px 400px;
     border-radius: 7px;
     box-shadow: 1px 1px 1px 1px grey;
-    height: 185px;
+    height: 310px;
 }
 
 h2, h3 {
   font-family: 'Josefin Sans', sans-serif;
-  color: #E16428;
+  color: #44679F;
   margin-left: 10px;
+  border-bottom: solid;
+  border-bottom-width: 1px;
+  border-bottom-left-radius: 29px;
+  border-bottom-color: #44679F;
  }
 
 .header p {
@@ -33,38 +38,43 @@ h2, h3 {
 }
 
 #profile_picture {
-    padding: 23px;
-    float: right;
+    border-style: solid;
     opacity: 0.9;
     width: 6em;
     height: 6em;
     border-radius: 100%;
-    margin-top: -82px;
+    border-style: solid;
+    border-color: steelblue;
+    border-width: 3px;
 }
 
 /*SOCIAL CARDS*/
 .social ul {
-    background-color: #F6E9E9;
-    width: 280px;
-    height: 30px;
+    background-color: ghostwhite;
+    width: 246px;
+    height: 20px;
     border-radius: 9px;
     margin: auto;
+    box-shadow: 1px 1px 1px grey;
 }
 
 .social li {
-  display: inline;
-  color: #E16428;
-  list-style: none;
-  height: 60px;
-  font-size: 18px;
-  font-family: : 'Spectral SC', serif;
+    font-family: 'Josefin Sans';
+    font-size: 13px;
+    display: inline-block;
+    margin: 0px 5px;
 }
+
+.social ul li a {
+  color: #3B577D
+}
+
 /*film section*/
 .container {
     background-color: #F1F1F1;
     text-align: center;
     background-size: cover;
-    margin: 40px 228px;
+    margin: 10px 400px;
     border-radius: 7px;
     box-shadow: 1px 1px 1px 1px grey;
 }
@@ -76,23 +86,27 @@ h2, h3 {
 }
 
 .container .cards {
-  background-color: chocolate;
-  font-size: 1.1em;
+    font-size: 1.1em;
+    background-color: #C0D9E5;
+    padding: 10px 30px;
 }
 
 .container .cards h3 {
     background-color: #F1F1F1;
     font-size: 1.5em;
-    color: black;
+    color: #44679F;
     border-radius: 9px;
     box-shadow: 1px 1px 1px 1px grey;
     padding-top: 3px;
 }
 
 .film_pictur {
-  box-shadow: 2px 3px 6px #F6E9E9;
-  width: 250px;
-  height: 290px;
+    box-shadow: 2px 3px 6px grey;
+    width: 200px;
+    height: 260px;
+    border-radius: 36px;
+    border-style: solid;
+    border-color: white;
 }
 
 /*footer*/
@@ -100,7 +114,7 @@ h2, h3 {
   background-color: #F1F1F1;
   text-align: center;
   background-size: cover;
-  margin: 40px 228px;
+  margin: 10px 400px;
   border-radius: 7px;
   box-shadow: 1px 1px 1px 1px grey;
   padding-top: 10px;
@@ -112,12 +126,13 @@ h2, h3 {
 }
 
 .footer h3 {
+  color: #44679F;
 
 }
 
 .footer p {
   font-family: 'Orbitron', sans-serif;
-  color: #E16428;
+  color: white;
   margin-left: 10px;
 
 }
