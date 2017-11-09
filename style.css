@@ -6,44 +6,40 @@ body {
 
 h1 {
   font-size: 50px;
-  font-family: 'Cinzel', sans-serif;
-  color: white;
-  text-shadow: 0px 2px 0px red;
+  font-family: 'Noto Sans', sans-serif;
+  color: #40A798;
 }
 
 .header {
-    background-image: url(images/mars.png);
+    background-color: #F1F1F1;
     text-align: center;
     background-size: cover;
-    margin: 20px 228px;
-    border-radius: 21px;
+    margin: 40px 228px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px 1px grey;
+    height: 185px;
 }
 
-h1:hover {
-  text-shadow: 2px 4px 1px #E16428;
-}
 h2, h3 {
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: #E16428;
   margin-left: 10px;
  }
 
 .header p {
-  font-family: 'Spectral SC', serif;
-  color: #F6E9E9;
+  font-family: 'Quicksand', serif;
+  color: #476268;
   font-size: 12px;
 }
-#profile_picture:hover {
-  width: 226px;
-  border-radius: 100%;
-  box-shadow: 4px 2px 9px #E16428;
-  opacity: 1;
-}
+
 #profile_picture {
-  opacity: 0.9;
-  width: 226px;
-  border-radius: 100%;
-  box-shadow: 1px 2px 9px #F6E9E9;
+    padding: 23px;
+    float: right;
+    opacity: 0.9;
+    width: 6em;
+    height: 6em;
+    border-radius: 100%;
+    margin-top: -82px;
 }
 
 /*SOCIAL CARDS*/
@@ -55,8 +51,6 @@ h2, h3 {
     margin: auto;
 }
 
-
-
 .social li {
   display: inline;
   color: #E16428;
@@ -67,7 +61,12 @@ h2, h3 {
 }
 /*film section*/
 .container {
-  margin: 10px 220px;
+    background-color: #F1F1F1;
+    text-align: center;
+    background-size: cover;
+    margin: 40px 228px;
+    border-radius: 7px;
+    box-shadow: 1px 1px 1px 1px grey;
 }
 
 
@@ -82,9 +81,12 @@ h2, h3 {
 }
 
 .container .cards h3 {
-  background-color: chocolate;
-  font-size: 1.5em;
-  color: black;
+    background-color: #F1F1F1;
+    font-size: 1.5em;
+    color: black;
+    border-radius: 9px;
+    box-shadow: 1px 1px 1px 1px grey;
+    padding-top: 3px;
 }
 
 .film_pictur {
@@ -95,8 +97,13 @@ h2, h3 {
 
 /*footer*/
 .footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  background-size: cover;
+  margin: 40px 228px;
+  border-radius: 7px;
+  box-shadow: 1px 1px 1px 1px grey;
   padding-top: 10px;
-  background-color: #F6E9E9;
 }
 
 .footer ul li{
